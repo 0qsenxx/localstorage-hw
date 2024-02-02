@@ -2,10 +2,13 @@
   "name": "localstorage-hw",
   "version": "1.0.0",
   "description": "",
-  "homePage": "",
+  "homePage": "https://0qsenxx.github.io/handlebars-hw/",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "parcel src/index.html"
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html --public-url /localstorage-hw",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
