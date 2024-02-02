@@ -1,0 +1,25 @@
+{
+  "name": "localstorage-hw",
+  "version": "1.0.0",
+  "description": "",
+  "homePage": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0qsenxx/localstorage-hw.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/0qsenxx/localstorage-hw/issues"
+  },
+  "homepage": "https://github.com/0qsenxx/localstorage-hw#readme",
+  "dependencies": {
+    "gh-pages": "^6.1.1",
+    "parcel": "^2.11.0"
+  }
+}
